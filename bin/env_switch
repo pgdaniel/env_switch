@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'env_switch'
+puts EnvSwitch.switch(ARGV[0])
